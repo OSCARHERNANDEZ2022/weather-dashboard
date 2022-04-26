@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awesome link-->
+    <script
+      src="https://kit.fontawesome.com/ca89a4b9f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="bg-dark pt-2 pb-2">
+      <div class="container">
+        <h1 class="text-center txt-white">Weather Dashboard</h1>
+      </div>
+    </div>
+    <!-- Header end-->
+
+    <!-- Container start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg3 bg-light pt-3 pb-3">
+          <h4>Search for city</h4>
+          <!-- Start input -->
+
+          <div class="input-group mb-3">
+            <input
+              id="searchTerm"
+              type="text"
+              class="form-control"
+              placehollder="City name..."
+              class="input-group-append"
+            />
+            <button
+              id="searchBTN"
+              class="btn btn-primary"
+              type="button"
+              id="button-addon2"
+            >
+              <i class="for" fa-search></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

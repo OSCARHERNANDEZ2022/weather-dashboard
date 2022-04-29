@@ -1,0 +1,19 @@
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSCARHERNANDEZ2022/weather-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSCARHERNANDEZ2022/weather-dashboard/issues"
+  },
+  "homepage": "https://github.com/OSCARHERNANDEZ2022/weather-dashboard#readme"
+}
